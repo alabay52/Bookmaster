@@ -15,18 +15,19 @@
 
         <Menu>
             <MenuItem Header="Файл">
-                <MenuItem Header="Вход в систему"/>
-                <MenuItem Header="Выход из системы"/>
-                <MenuItem Header="Закрыть приложение"/>
+                <MenuItem Name="LoginMi" Header="Вход в систему" Click="LoginMi_Click"/>
+                <MenuItem Name="LogoutMi" Header="Выход из системы" Click="LogoutMi_Click"/>
+                <MenuItem Name="CloseMi" Header="Закрыть приложение" Click="CloseMi_Click"/>
             </MenuItem>
-            <MenuItem Header="Библиотека">
-            <MenuItem Header="Просмотр каталога"/>
-            <MenuItem Header="Управление читателями "/>
-            <MenuItem Header="Управление абонементом "/>
-            <MenuItem Header="Отчеты "/>
+            
+            <MenuItem Name="LibraryMi" Header="Библиотека">
+            <MenuItem Name="BrowseCatalogMi" Header="Просмотр каталога" Click="BrowseCatalogMi_Click"/>
+            <MenuItem Name="ManageCustomersMi" Header="Управление читателями " Click="ManageCustomersMi_Click_1"/>
+                <MenuItem Name="CirculationMi" Header="Управление абонементом " Click="CirculationMi_Click"/>
+                <MenuItem Name="ReportsMi" Header="Отчеты " Click="ReportsMi_Click"/>
             </MenuItem>
         </Menu>
 
-        <Frame Name="MainFrame" Grid.Row="2"/>
+        <Frame Name="MainFrame" Grid.Row="2" Margin="10"/>
     </Grid>
 </Window>
