@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="1d41a8b4ec804db98e932f1aa13ee6f5" Name="Diagram1" ZoomLevel="55">
+      <Diagram DiagramId="1d41a8b4ec804db98e932f1aa13ee6f5" Name="Diagram1" ZoomLevel="124">
         <EntityTypeShape EntityType="Sochnev.Danila.BookmasterModel.Administrator" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="Sochnev.Danila.BookmasterModel.Author" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
         <EntityTypeShape EntityType="Sochnev.Danila.BookmasterModel.Book" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />

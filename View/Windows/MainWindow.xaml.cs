@@ -15,7 +15,7 @@ namespace Bookmaster
 
             LogoutMi.Visibility = Visibility.Collapsed;
 
-            LibraryMi.Visibility = Visibility.Collapsed;
+            LibraryMi.Visibility = Visibility.Visible;
         }
 
         private void LoginMi_Click(object sender, RoutedEventArgs e)
